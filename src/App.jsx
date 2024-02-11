@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div>
       <Cursor />
+      <SpeedInsights/>
       <section id="Homepage">
         <Navbar />
         <Hero />
