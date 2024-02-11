@@ -64,10 +64,12 @@
         margin: 10px auto;
         z-index: -1;
 
-        @include mobile{
-          display: none;
+        svg {
+          @include mobile {
+            height: 90%;
+            width: 100%;
+          }
         }
-        
       }
 
       form {
