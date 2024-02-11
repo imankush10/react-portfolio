@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .sidebar {
   color: black;
   display: flex;
@@ -10,6 +12,10 @@
     bottom: 0;
     width: 400px;
     background: white;
+
+    @include mobile {
+      width: 250px;
+    }
   }
   .links {
     height: 100%;
@@ -21,6 +27,9 @@
 
     a {
       font-size: 40px;
+      @include mobile {
+        font-size: 32px;
+      }
     }
   }
   button {
