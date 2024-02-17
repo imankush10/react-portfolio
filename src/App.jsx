@@ -7,11 +7,13 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
     <div>
-      <Analytics/>
+      <Analytics />
+      <SpeedInsights/>
       <Cursor />
       <section id="Homepage">
         <Navbar />
