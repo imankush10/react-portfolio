@@ -6,10 +6,12 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
     <div>
+      <Analytics/>
       <Cursor />
       <section id="Homepage">
         <Navbar />
